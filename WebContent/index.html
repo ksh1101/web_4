@@ -18,7 +18,7 @@
 .nav{
 	width: 70%;
 	height: 67px;
-	background-color: gray;
+	
 	margin: 0 auto;
 }
 
@@ -32,16 +32,43 @@
 .main_menu{
 	width: 55%;
 	height: 67px;
-	background-color: red;
 	float: left;
 }
 
 .sub_menu{
 	width: 25%;
 	height: 67px;
-	background-color: blue;
 	float: right;
 }
+
+.main_menu > ul{
+	margin-left: 8%;
+}
+
+.main_menu li{
+float: left;
+line-height: 67px;
+width: 23%;
+color: white;
+font-size: 0.9rem;
+letter-spacing: -1px;
+
+}
+
+.sub_menu > ul{
+margin-right: 8%
+}
+
+.sub_menu li{
+float: left;
+line-height: 67px;
+width: 10%;
+color: white;
+font-size: 10px;
+word-spacing: 0.5px;
+
+}
+
 /*=============header 끝======================*/
 
 /*=============main 시작=====================*/
@@ -95,7 +122,7 @@
 }
 /*=============footer 끝======================*/
 </style>
-
+<!-- ************************style 끝****************************************** -->
 </head>
 <body>
 <!-- header 시작 -->
@@ -105,9 +132,27 @@
    	   <img alt="" src="./images/logo.png">
    	 </div>
    	 
-   	 <div class="main_menu"></div>
+   	 <div class="main_menu">
+   	 <ul>
+   	   <li>COMPANY</li>
+   	   <li>ARTISTS</li>
+   	   <li>PR CENTER</li>
+   	   <li>AUDITION</li>
+   	 </ul>
    	 
-   	 <div class="sub_menu"></div>
+   </div>
+   	
+   	 <div class="sub_menu">
+   	 <ul>
+   	 <li>LOGIN</li>
+  	 <li>JOIN</li>
+   	 <li>KO</li>
+   	 <li>EN</li>
+   	 <li>JP</li>
+   	 <li>CN</li>
+   	 </ul>
+   	 
+   	 </div>
    </nav>
 </header>
 <!-- header 끝 -->
